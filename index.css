@@ -68,6 +68,12 @@ nav ul li a {
     margin-bottom: 20px; 
 }
 
+.my-image{
+    width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 .contact-form {
     background-color: #f0f0f0;
     padding: 20px;
