@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d8a911; 
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-family: 'Toboggan', sans-serif; 
+    font-size: 40px; 
+    text-align: center;
+    margin-bottom: 20px; 
+    text-shadow: 0 0 5px rgba(0,0,0,0.1); 
+}
+
+
+.nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li a {
+    font-family: 'Apex MK2', sans-serif; 
+}
+
+.nav__items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__item {
+    margin-right: 20px;
+}
+
+.nav__link {
+    color: rgb(240, 141, 48); 
+    text-decoration: none; 
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav__link:hover {
+    background-color: #f87d0a; 
+    border-radius: 5px; 
+}
+
+.main_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.main_section p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.food-image {
+    width: 40%; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-bottom: 20px; 
+}
+
+.contact-form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-form h3 {
+    margin-top: 0; 
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    background-color: #f87d0a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.main_section p {
+    text-align: center;
+    margin-bottom: 10px; 
+    text-emphasis: bold;
+}
+
+.menu-list {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0 auto; 
+    width: fit-content; 
+    text-align: center; 
+}
+
+.menu-list li {
+    background-color: #f0f0f0;
+    padding: 10px; 
+    margin-bottom: 5px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.1); 
+}
+
+.menu-list li:hover {
+    background-color: #e0e0e0; /* Lighter gray on hover */
+}
+
+
+
+
+
+
+footer {
+    background-color: #272525;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+/* Responsiveness in the design */
+@media (max-width: 768px) {
+    .nav__items {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .nav__item {
+        margin-right: 0; 
+        margin-bottom: 10px;
+    }
+    .main_section {
+        padding: 10px;
+    }
+    .food-image {
+        width: 60%; 
+    }
+    .contact-form {
+        padding: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px; 
+    }
+    .nav__link {
+        padding: 5px 10px; 
+    }
+    .food-image {
+        width: 80%; 
+    }
+    .contact-form input, .contact-form textarea {
+        padding: 8px; 
+}
+}
+
+
